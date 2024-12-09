@@ -294,31 +294,28 @@ h4 {
   font-size: 16px;
 }
 
-.iage1 {
-  background: url(../img/booking.png);
+.iage1, .iage2, .iage3, .iage4{
   width: 70px;
   height: 70px;
+}
+
+.iage1 {
+  background: url(../img/booking.png);
   background-size: contain;
 }
 
 .iage2 {
   background: url(../img/friendly.png);
-  width: 70px;
-  height: 70px;
   background-size: contain;
 }
 
 .iage3 {
   background: url(../img/respon.png);
-  width: 70px;
-  height: 70px;
   background-size: contain;
 }
 
 .iage4 {
   background: url(../img/order.png);
-  width: 70px;
-  height: 70px;
   background-size: contain;
 }
 
@@ -384,38 +381,33 @@ h4 {
   letter-spacing: 1px;
 }
 
-.room:nth-child(2) {
-  background: url(../img/lux.png);
+.room{
   width: 100%;
   height: 100%;
+}
+
+.room:nth-child(2) {
+  background: url(../img/lux.png);
   background-size: contain;
 }
 
 .room:nth-child(3) {
   background: url(../img/mini.png);
-  width: 100%;
-  height: 100%;
   background-size: contain;
 }
 
 .room:nth-child(4) {
   background: url(../img/standart.png);
-  width: 100%;
-  height: 100%;
   background-size: contain;
 }
 
 .room:nth-child(5) {
   background: url(../img/single.png);
-  width: 100%;
-  height: 100%;
   background-size: contain;
 }
 
 .room:nth-child(6) {
   background: url(../img/elite.png);
-  width: 100%;
-  height: 100%;
   background-size: contain;
 }
 
@@ -448,28 +440,25 @@ h4 {
   width: 32%;
 }
 
-.avatar1 {
-  background: url(../img/david.png) no-repeat;
-  background-size: contain;
+.avatar1, .avatar2, .avatar3{
   width: 90px;
   height: 90px;
   margin: 0 auto;
+}
+
+.avatar1 {
+  background: url(../img/david.png) no-repeat;
+  background-size: contain;
 }
 
 .avatar2 {
   background: url(../img/ravi.png) no-repeat;
   background-size: contain;
-  width: 90px;
-  height: 90px;
-  margin: 0 auto;
 }
 
 .avatar3 {
   background: url(../img/thomas.png) no-repeat;
   background-size: contain;
-  width: 90px;
-  height: 90px;
-  margin: 0 auto;
 }
 
 .dot {
@@ -962,25 +951,24 @@ h6:nth-child(3) {
     width: 32%;
   }
 
+  .avatar1, .avatar2 , .avatar3{
+      width: 50px;
+      height: 50px;
+  }
+
   .avatar1 {
     background: url(../img/david.png) no-repeat;
     background-size: contain;
-    width: 50px;
-    height: 50px;
   }
 
   .avatar2 {
     background: url(../img/ravi.png) no-repeat;
     background-size: contain;
-    width: 50px;
-    height: 50px;
   }
 
   .avatar3 {
     background: url(../img/thomas.png) no-repeat;
     background-size: contain;
-    width: 50px;
-    height: 50px;
   }
 
   .dot {
